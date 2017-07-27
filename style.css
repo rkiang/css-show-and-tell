@@ -1,0 +1,39 @@
+body {
+  background-color: #F6D99B;
+}
+
+h1 {
+    font-family: "Futura";
+    text-shadow: 4px 2px #86CA80;
+    background-color: #CE838F;
+    text-align: center;
+    margin: 10% 30%;
+    border: 10px ridge #80AFCA;
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: #FDF9F9;
+    padding: 2%;
+    border-radius: 80px;
+    box-shadow: 20px 40px 75px #8273E9;
+    animation-duration: 3s;
+    animation-name: slidein;
+    transition: height 3s;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 90%;
+    width: 30%; 
+  }
+
+  to {
+    margin-left: 30%;
+    width: 75%;
+  }
+}
+
+h1:hover {
+  height: 800px;
+}
